@@ -231,7 +231,7 @@
  "Vis" 0.4  0.7            # GNAME(2), GWAVLL(2), GWAVLU(2)
  " IR" 0.7  999.0          # GNAME(3), GWAVLL(3), GWAVLU(3)
  "All" 0.0  999.0          # GNAME(NSPEC), GWAVLL(NSPEC), GWAVLU(NSPEC) 
- 1                         # NPITR - If NSPEC < 0 or > 10, rows below not read in
+ 1                         # NPITR - If NPITR < 0 or > 10, rows below not read in
  2                         # IPGSPEC(NPITR)
  1.0E-5  1.0E-3  2.0       # PALPHA, PBETA, PGAMMA
  308.0  346.0              # POPT, PTMAX
@@ -243,7 +243,7 @@
  "ViM" 0.4   0.7           # GNAME(2), GWAVLL(2), GWAVLU(2)
  "ViL" 0.4   0.75          # GNAME(3), GWAVLL(3), GWAVLU(3)
  "All" 0.0  999.0          # GNAME(NSPEC), GWAVLL(NSPEC), GWAVLU(NSPEC) 
- 3                         # NPITR - If NSPEC < 0 or > 10, rows below not read in
+ 3                         # NPITR - If NPITR < 0 or > 10, rows below not read in
  1  2  3                   # IPGSPEC(NPITR)
  1.0E-5  1.0E-3  2.0       # PALPHA, PBETA, PGAMMA
  308.0  346.0              # POPT, PTMAX

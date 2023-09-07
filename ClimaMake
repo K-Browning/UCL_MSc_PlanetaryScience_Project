@@ -188,12 +188,11 @@ OBPATH = $(CDOTOC)/$(CSUR).o \
 	 $(CDOTOC)/$(CVINT).o \
 	 $(CDOTOC)/$(CRSET).o \
 	 $(CDOTOC)/$(CSTBC).o \
-#!kb Lines added 
      $(CDOTOC)/$(CSGRE).o \
      $(CDOTOC)/$(CSGCO).o \
      $(CDOTOC)/$(CSGCA).o \
      $(CDOTOC)/$(CSGWR).o
-#!kb End of lines added	 
+
 			 
 ###############################
 # Load line
